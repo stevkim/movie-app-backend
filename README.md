@@ -48,6 +48,10 @@ The server for Moovi, which you can find <a href='https://github.com/stevkim/mov
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 ![JWT](https://img.shields.io/badge/json%20web%20tokens-323330?style=for-the-badge&logo=json-web-tokens&logoColor=pink)
 
+<p align='right'>  
+  <a href='#readme-top'>back to top</a>
+</p>
+
 # Getting Set-up
 <a id='setup'></a>
 
@@ -80,6 +84,9 @@ REFRESH_TOKEN_SECRET=(a string that is used to create and verify JWT tokens)
 ```
 npm start
 ```
+<p align='right'>  
+  <a href='#readme-top'>back to top</a>
+</p>
 
 # Endpoints
 
@@ -194,7 +201,16 @@ npm start
   </div>
 </details>
 
+<p align='right'>  
+  <a href='#readme-top'>back to top</a>
+</p>
+
 # Takeaway
 <a id='takeaway'></a>
 The importance of RESTful conventions - after learning and coming back to this project, the first thing i notice is that all the endpoints are sort of mushed into get/post/put with no real separation of concerns.
-If i'd do this project again, GET requests would soley be replied for the endpoints that give client-side information. PUT would be for when modifying a document in the db. POST would only be used when adding information, DELETE would be used instead to delete as well.
+If i'd do this project again, GET requests would soley be replied for the endpoints that give client-side information. PUT would be for when modifying a document in the db. POST would only be used when adding information, DELETE would be used instead to 
+delete as well.
+
+<p align='right'>  
+  <a href='#readme-top'>back to top</a>
+</p>
